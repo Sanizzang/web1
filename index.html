@@ -16,7 +16,15 @@
       </ol>
       <div id="article">
         <p>
-          Just <strong>Light</strong>
+          Just
+          <input type="button" value="Darkness" onclick="
+          document.querySelector('body').style.backgroundColor='black';
+          document.querySelector('body').style.color='white';
+          " >
+          <input type="button" value="Light" onclick="
+          document.querySelector('body').style.backgroundColor='white';
+          document.querySelector('body').style.color='black';
+          " >
         </p>
         <img src="hyungju.jpg" width="150px">
       </div>
